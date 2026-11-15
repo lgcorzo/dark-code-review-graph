@@ -1,3 +1,5 @@
+Maintained fork of [tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph). It applies security patches and maintenance fixes on top of upstream. Part of the [Dark Gravity](https://github.com/lgcorzo/rust_CACD_autonomous_factory) factory. License: MIT.
+
 <h1 align="center">code-review-graph</h1>
 
 <p align="center">
@@ -930,3 +932,10 @@ MIT. See [LICENSE](LICENSE).
 <a href="https://code-review-graph.com">code-review-graph.com</a><br><br>
 <code>pip install code-review-graph && code-review-graph install</code>
 </p>
+
+---
+
+### Fork Maintenance & Agent Transparency
+
+- **Changes vs. Upstream:** Security dependency updates, CI/CD workflow fixes, and CodeQL remediation are tracked in the [commit history](https://github.com/lgcorzo/dark-code-review-graph/commits) and [Pull Requests](https://github.com/lgcorzo/dark-code-review-graph/pulls?q=is%3Apr).
+- **Agent Tagging (`[agent]`):** Commits and pull requests generated automatically by agents in the Dark Gravity pipeline are prefixed with `[agent]` to distinguish automated maintenance from manual work.
